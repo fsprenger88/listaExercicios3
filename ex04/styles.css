@@ -1,0 +1,29 @@
+header{
+    background-color: rgb(27, 27, 27);
+    color:red;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+main{
+    background-color: blueviolet;
+    color: black;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+footer{
+    background-color: chartreuse;
+    color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+

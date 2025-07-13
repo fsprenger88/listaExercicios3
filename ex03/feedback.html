@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 3. Formulário de Feedback - Em arquivo feedback.html, construa um formulário
+que contenha:
+- Nome
+- E-mail
+- Endereço Completo
+- Tipo de feedback
+- Campo para o Feedback
+- Botão de Envio -->
+
+</head>
+<body>
+    <form>
+      <div id="form-container">
+        <h1>Formulário de Cadastro</h1>
+        <form>
+            <div class="input-group">
+                <label>Nome Completo:</label>
+                <input type="text"> 
+            </div>
+
+            <div class="input-group">
+                <label>E-mail:</label>
+                <input type="email">
+
+            </div>
+
+            <div class="input-group">
+                <label>Endereço:</label>
+                <input type="text">
+            </div>
+
+                <div class="input-group">
+                    <label> Tipo de Feedback:</label>
+                    <select name="feedback">
+                    <option value="">Selecione...</option>
+                    <option value="">Elogio</option>
+                    <option value="">Crítica</option>
+                    <option value="">Sugestão</option>
+                    <option value="">Dúvida</option>
+                </div>
+
+                <div class="input-group">
+                    <label>Feedback</label>
+                    <input type="text" placeholder="Deixe aqui seu Feedback...">
+                </div>
+        
+            
+        </div>
+
+        <button type="submit">Enviar</button>
+        
+    </form>
+</body>
+</html>
